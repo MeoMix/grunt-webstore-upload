@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
-  grunt.registerTask('webstore_upload', 'Automate uploading uploading process of the new versions of Chrome Extension to Chrome Webstore', function(taskName) {
+  grunt.registerTask('webstore-upload', 'Automate uploading uploading process of the new versions of Chrome Extension to Chrome Webstore', function(taskName) {
     var _task = this;
     var _ = require('lodash');
     var extensionsConfigPath = _task.name + '.extensions';
